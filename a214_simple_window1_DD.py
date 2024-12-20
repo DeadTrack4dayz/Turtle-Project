@@ -9,7 +9,7 @@ title = root.title()
 root.title('Authorization')
 
 # create empty frame
-frame_login = tk.Frame(root)
+frame_login = tk.Frame(root,bg = 'blue')
 frame_login.grid(row = 0,column = 0,sticky = 'news')
 frame_auth = tk.Frame(root)
 frame_auth.grid(row = 0, column = 0, sticky= 'news')
